@@ -14,16 +14,17 @@ Prediction: Users can input a CGPA and receive a predicted placement package.
 
 Dependencies:
 
-Python
-Flask
-Pandas
-NumPy
-Scikit-learn
-Joblib
-Docker
+* Python
+* Flask
+* Pandas
+* NumPy
+* Scikit-learn
+* Joblib
+* Docker
 
 Additional Information:
 
 Model performance: Include metrics such as R-squared, Mean Squared Error, and Mean Absolute Error to evaluate the model's accuracy.
 Data preprocessing: Describe any data cleaning or feature engineering steps performed.
 Model limitations: Discuss the model's limitations, such as relying solely on CGPA for prediction.
+Exposed: Port = 8000.
